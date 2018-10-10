@@ -1,17 +1,14 @@
 var kittens = ['Milo', 'Otis', 'Garfield'];
 console.log(kittens)
 
-var destructivelyAppendKitten(name) = ['Ralph'];
-
-
-', function() {
-    it('appends a kitten to the end of the kittens array', function() {
+var destructivelyAppendKitten(name)
+ function destructivelyAppendKitten(name) {
       window.kittens = ['Milo', 'Otis', 'Garfield'];
       destructivelyAppendKitten('Ralph')
-      expect(window.kittens).toEqual(["Milo", "Otis", "Garfield", "Ralph"])
-    })
-  })
-
+      kittens.push('Ralph')
+      console.log(destructivelyAppendKitten)
+    }
+    
   describe('destructivelyPrependKitten(name)', function() {
     it('prepends a kitten to the beginning of the kittens array', function() {
       window.kittens = ['Milo', 'Otis', 'Garfield'];
