@@ -24,8 +24,7 @@ function appendKitten(name) {
 
 function prependKitten(name) {
  return  kittens.unshift('Arnold')
-  
-}
+  }
 
     it('prepends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged', function() {
       window.kittens = ['Milo', 'Otis', 'Garfield'];
