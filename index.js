@@ -38,7 +38,7 @@ return
   function removeLastKitten() {
     kittens = ['Milo', 'Otis', 'Garfield'];
     var removeLastKitten = kittens.slice(1)
-    return 
+    console.log(kittens.slice(1))
   }
   
     it('removes the last kitten in the kittens array and returns a new array, leaving the kittens array unchanged', function() {
