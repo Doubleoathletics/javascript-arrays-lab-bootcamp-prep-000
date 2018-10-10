@@ -41,13 +41,7 @@ return
     console.log(kittens.slice(2));
   }
   
-    it('removes the last kitten in the kittens array and returns a new array, leaving the kittens array unchanged', function() {
-      window.kittens = ['Milo', 'Otis', 'Garfield'];
-      expect(removeLastKitten()).toEqual(["Milo", "Otis"])
-
-      expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
-    })
 function removeFirstKitten() {
   kittens = ['Milo', 'Otis', 'Garfield'];
-  console.log(kittens.slice(1));
+  console.log(kittens.slice(0));
 }
