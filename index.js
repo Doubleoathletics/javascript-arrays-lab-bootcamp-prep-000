@@ -47,5 +47,6 @@ return console.log.concat
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
     })
 function removeFirstKitten() {
+  kittens = ['Milo', 'Otis', 'Garfield'];
   return console.log(kittens.slice(0));
 }
