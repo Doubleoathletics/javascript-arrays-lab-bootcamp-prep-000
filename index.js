@@ -1,5 +1,7 @@
 var kittens = ['Milo', 'Otis', 'Garfield'];
+console.log(kittens)
 //define your array here
+
 
 // Add your functions and code here
 describe('Arrays', function() {
