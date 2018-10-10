@@ -1,9 +1,11 @@
 var kittens = ['Milo', 'Otis', 'Garfield'];
 console.log(kittens)
 
-var destructivelyAppendKitten(name)
-function destructivelyAppendKitten('${name}') {
-  
+var destructivelyAppendKitten()
+
+function destructivelyAppendKitten(name) {
+  kittens.push('Ralph')
+  console.log(destructivelyAppendKitten)
 }
 
 kitchen.push('Ralph')
