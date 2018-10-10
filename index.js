@@ -43,8 +43,6 @@ function prependKitten(name) {
 
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
     })
-  })
-
   describe('removeFirstKitten()', function() {
     it('removes the first kitten from the kittens array and returns a new array, leaving the kittens array unchanged', function() {
       window.kittens = ['Milo', 'Otis', 'Garfield'];
