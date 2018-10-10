@@ -19,6 +19,7 @@ function destructivelyRemoveFirstKitten() {
     return kittens.shift()
   }
 function appendKitten(name) {
+  
   return kittens.concat
     it('appends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged', function() {
       window.kittens = ['Milo', 'Otis', 'Garfield'];
