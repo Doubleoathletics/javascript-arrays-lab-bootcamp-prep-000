@@ -46,12 +46,5 @@ kittens = ['Milo', 'Otis', 'Garfield'];
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
     })
 function removeFirstKitten() {
-    it('removes the first kitten from the kittens array and returns a new array, leaving the kittens array unchanged', function() {
-      window.kittens = ['Milo', 'Otis', 'Garfield'];
-      expect(removeFirstKitten()).toEqual(["Otis", "Garfield"])
-
-      expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
-    })
-  })
-  
-    
+  return kittens.slice(0)
+}
