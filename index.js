@@ -32,7 +32,6 @@ function prependKitten(name) {
 
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
     })
-  })
 
   function removeLastKitten() {
     kittens.pop()
