@@ -48,5 +48,5 @@ return console.log.concat
     })
 function removeFirstKitten() {
   kittens = ['Milo', 'Otis', 'Garfield'];
-  console.log(kittens.slice(0));
+  console.log(kittens.slice(1));
 }
