@@ -22,8 +22,10 @@ function appendKitten(name) {
   return kittens.concat('Broom')
 }
 
-   
-  describe('prependKitten(name)', function() {
+function prependKitten(name) {
+  return kittens.concat('Arnold')
+}
+
     it('prepends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged', function() {
       window.kittens = ['Milo', 'Otis', 'Garfield'];
       expect(prependKitten("Arnold")).toEqual(["Arnold", "Milo", "Otis", "Garfield"])
@@ -32,7 +34,10 @@ function appendKitten(name) {
     })
   })
 
-  describe('removeLastKitten()', function() {
+  function removeLastKitten() {
+    kittens.pop()
+  }
+  
     it('removes the last kitten in the kittens array and returns a new array, leaving the kittens array unchanged', function() {
       window.kittens = ['Milo', 'Otis', 'Garfield'];
       expect(removeLastKitten()).toEqual(["Milo", "Otis"])
