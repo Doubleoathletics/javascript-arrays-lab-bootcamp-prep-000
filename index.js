@@ -36,7 +36,7 @@ kittens = ['Milo', 'Otis', 'Garfield'];
 
   function removeLastKitten() {
      kittens = ['Milo', 'Otis', 'Garfield'];
-    console.log(kittens.pop())
+    console.log(kittens.slice(2))
   }
   
     it('removes the last kitten in the kittens array and returns a new array, leaving the kittens array unchanged', function() {
@@ -45,7 +45,7 @@ kittens = ['Milo', 'Otis', 'Garfield'];
 
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
     })
-  describe('removeFirstKitten()', function() {
+function removeFirstKitten() {
     it('removes the first kitten from the kittens array and returns a new array, leaving the kittens array unchanged', function() {
       window.kittens = ['Milo', 'Otis', 'Garfield'];
       expect(removeFirstKitten()).toEqual(["Otis", "Garfield"])
