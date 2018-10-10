@@ -2,7 +2,9 @@ var kittens = ['Milo', 'Otis', 'Garfield'];
 console.log(kittens)
 
 var destructivelyAppendKitten(name) = ['Ralph']
-destructivelyAppendKitten.push('Ralph')
+kitchen.push('Ralph')
+console.log(destructivelyAppendKitten)
+
   describe('destructivelyAppendKitten(name)', function() {
     it('appends a kitten to the end of the kittens array', function() {
       window.kittens = ['Milo', 'Otis', 'Garfield'];
