@@ -25,7 +25,7 @@ function appendKitten(name) {
 function prependKitten(name) {
 kittens = ['Milo', 'Otis', 'Garfield'];
 console.log(kittens.unshift('Arnold'))
-return
+return console.log.concat
   }
 
     it('prepends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged', function() {
