@@ -70,4 +70,5 @@ function destructivelyAppendKitten(name) {
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
     })
   })
-})
+  
+    
