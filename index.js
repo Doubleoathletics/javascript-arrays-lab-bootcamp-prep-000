@@ -37,7 +37,6 @@ kittens = ['Milo', 'Otis', 'Garfield'];
   function removeLastKitten() {
      kittens = ['Milo', 'Otis', 'Garfield'];
     console.log(kittens.pop())
-   return kittens.pop()
   }
   
     it('removes the last kitten in the kittens array and returns a new array, leaving the kittens array unchanged', function() {
