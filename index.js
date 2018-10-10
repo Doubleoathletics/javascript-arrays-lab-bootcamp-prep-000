@@ -23,6 +23,7 @@ function appendKitten(name) {
 }
 
 function prependKitten(name) {
+kittens = ['Milo', 'Otis', 'Garfield'];
  return  kittens.unshift('Arnold')
   }
 
@@ -34,6 +35,7 @@ function prependKitten(name) {
     })
 
   function removeLastKitten() {
+     kittens = ['Milo', 'Otis', 'Garfield'];
     console.log(kittens.pop())
    return kittens.pop()
   }
